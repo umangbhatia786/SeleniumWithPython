@@ -2,7 +2,8 @@ import time
 
 from selenium import webdriver
 
-driver = webdriver.Chrome(r"C:\Users\Umang Bhatia\Documents\Drivers\chromedriver.exe")  # setting up chrome driver
+driver = webdriver.Chrome(
+    executable_path=r"C:\Users\Umang Bhatia\Documents\Drivers\chromedriver.exe")  # setting up chrome driver
 
 driver.maximize_window()  # maximizing browser window
 driver.delete_all_cookies()  # deleting all cookies

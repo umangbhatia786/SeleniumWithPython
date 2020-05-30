@@ -12,11 +12,10 @@ driver.find_element(By.XPATH, '//*[@id="HTML9"]/div[1]/button').click()
 time.sleep(3)
 
 # For switiching to alert popup
-alert_popup = driver.switch_to_alert()
+alert_popup = driver.switch_to.alert
 
 # accepting the alert
 alert_popup.accept()
-
 time.sleep(2)
 
 driver.quit()

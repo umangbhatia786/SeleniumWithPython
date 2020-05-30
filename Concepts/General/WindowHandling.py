@@ -8,7 +8,7 @@ driver.delete_all_cookies()
 driver.implicitly_wait(10)
 
 driver.get('http://demo.automationtesting.in/Windows.html')
-
+print(driver.title)
 driver.find_element(By.XPATH, '//*[@id="Tabbed"]/a/button').click()
 
 for handle in driver.window_handles:
