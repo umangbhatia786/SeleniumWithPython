@@ -10,6 +10,7 @@ def before_all(context):
     '''context.login_page = LoginPage()
     context.header = Header()
     context.home_page = HomePage()'''
+    #Comment added
     context.notepad_app = NotePad()
     context.font_form = FontForm()
         
