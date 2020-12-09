@@ -1,3 +1,4 @@
+#Browser Class File
 from selenium import webdriver
 import os
 
